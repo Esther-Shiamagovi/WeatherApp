@@ -1,10 +1,15 @@
-import { fetchWeatherData } from "./Weather";
+import SearchBar, { fetchWeatherData } from "./Weather";
 
 function Weather() {
   return (
-    <div >
- <Weather/>
-    </div>
+<div className="App">
+            <header className="App-header">
+                <h1>Weather Forecast </h1>
+            </header>
+            <main>
+                <SearchBar /> {                                 }
+            </main>
+        </div>
   );
 }
 
